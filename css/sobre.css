@@ -1,12 +1,26 @@
 body {
-    font-family: "Arial", "Helvetica", sans-serif;
+    color: #333333;
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
 }
 
 h1 {
     background-image: url(../img/sobre-background.jpg);
 }
 
-/* deixando o fundo ridiculo */
-body {
-    background: gold;
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+p {
+    text-align: justify;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
 }
